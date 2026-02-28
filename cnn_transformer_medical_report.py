@@ -17,9 +17,9 @@ from tensorflow.keras.preprocessing.image import (
 # =====================================================
 # PATHS (EDIT IF NEEDED)
 # =====================================================
-TOKENIZER_PATH = r"C:\Users\K.M.Dhoni\OneDrive\Desktop\dataset\tokenizer.json"
-MAX_SEQ_PATH = r"C:\Users\K.M.Dhoni\OneDrive\Desktop\dataset\max_sequence_length.txt"
-MODEL_SAVE_PATH = r"C:\Users\K.M.Dhoni\OneDrive\Desktop\dataset\transformer_medical_report.h5"
+TOKENIZER_PATH = r"E:\Final Year\files1\files\tokenizer.json"
+MAX_SEQ_PATH = r"E:\Final Year\files1\files\max_sequence_length.txt"
+MODEL_SAVE_PATH = r"E:\Final Year\files1\files\transformer_medical_report.h5"
 
 # =====================================================
 # LOAD TOKENIZER & MAX SEQ LENGTH
@@ -176,3 +176,4 @@ target_sequences   -> shape (N, MAX_SEQ_LEN)
 # model.save(MODEL_SAVE_PATH)
 
 print("\n✅ CNN + Transformer architecture ready!")
+
